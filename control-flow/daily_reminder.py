@@ -1,6 +1,6 @@
 task_description = input("Enter your task: ")
 task_priority = input("Priority (high/medium/low): ")
-task_due_date = input("Is it time-boound? (yes/no): ")
+task_due_date = input("Is it time-bound? (yes/no): ")
 match task_priority:
     case "high" | "medium":
         if task_due_date == "yes":
