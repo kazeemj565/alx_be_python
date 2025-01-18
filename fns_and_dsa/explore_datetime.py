@@ -11,7 +11,7 @@ from datetime import date
 
 def display_current_datetime():
     current_date = datetime.now()
-    current_date = current_date.strftime("%Y-%M-%D %H:%m:%S")
+    current_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
     print(current_date)
 
 
@@ -19,7 +19,7 @@ display_current_datetime()
 
 def calculate_future_date():
     future_date = datetime.now() + timedelta(days=40)
-    future_date = future_date.strftime("%Y-%M-%D")
+    future_date = future_date.strftime("%Y-%m-%d")
 
 
 calculate_future_date()
