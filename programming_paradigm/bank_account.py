@@ -11,6 +11,7 @@ class BankAccount:
         # self.account_balance -= amount
         if amount <= self.account_balance:
             self.account_balance -= amount
+            return self.account_balance
         else:
             return  None 
         # if amount > self.account_balance:
