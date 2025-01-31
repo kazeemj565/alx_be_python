@@ -8,14 +8,13 @@ class BankAccount:
         pass
 
     def withdraw(self, amount):
-        self.account_balance -= amount
-        return amount
-        # if amount > self.account_balance:
-        #     print("Insufficient funds.")
-        # else:
-        #     self.account_balance -= amount
-        #     # print(f"Withdrew: ${amount:.2f}")
-        # pass
+        # self.account_balance -= amount
+        if amount > self.account_balance:
+            return self.account_balance
+        else:
+            self.account_balance -= amount
+            # print(f"Withdrew: ${amount:.2f}")
+        pass
 
     def display_balance(self):
         amount = float(self.account_balance)
