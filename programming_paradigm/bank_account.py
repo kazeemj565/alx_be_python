@@ -5,7 +5,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.account_balance += amount
-        print(f"Deposited: ${amount:.2f}")
+        # print(f"Deposited: ${amount:.2f}")
         pass
 
     def withdraw(self, amount):
@@ -13,13 +13,13 @@ class BankAccount:
             print("Insufficient funds.")
         else:
             self.account_balance -= amount
-            print(f"Withdrew: ${amount:.2f}")
+            # print(f"Withdrew: ${amount:.2f}")
         pass
 
     def display_balance(self):
-        amount = float(self.account_balance)
-        print(f"Current Balance: ${amount:.2f}")
-        
+        # amount = float(self.account_balance)
+        # print(f"Current Balance: ${amount:.2f}")
+        return self.account_balance 
 
 # d = BankAccount()
 # d.deposit()
