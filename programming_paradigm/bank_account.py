@@ -19,9 +19,10 @@ class BankAccount:
         # pass
 
     def display_balance(self):
-        amount = float(self.account_balance)
+        # amount = float(self.account_balance)
         # print(f"Current Balance: ${amount:.2f}")
-        return amount
+        return self.account_balance 
+
 # d = BankAccount()
 # d.deposit()
 # d.withdraw()
