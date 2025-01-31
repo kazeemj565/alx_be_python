@@ -21,9 +21,9 @@ class BankAccount:
 
         
 
-d = BankAccount()
-d.deposit(100)
-d.withdraw(500)
-# print(d.display_balance())
-balance = d.display_balance()
-print(f"The Balance is ${balance}")
+# d = BankAccount()
+# d.deposit()
+# d.withdraw()
+# # print(d.display_balance())
+# balance = d.display_balance()
+# # print(f"The Balance is ${balance}")
