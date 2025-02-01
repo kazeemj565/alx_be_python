@@ -21,7 +21,3 @@ def safe_divide(numerator, denominator):
         print("Error: Please enter numeric values only.")
 
 
-
-# safe_divide(4, 3)
-# safe_divide(4, 0)
-# safe_divide(4, 'jan')

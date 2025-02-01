@@ -27,7 +27,6 @@ def main():
     numerator = sys.argv[1]
     denominator = sys.argv[2]
 
-    # Call safe_divide without capturing its return value
     safe_divide(numerator, denominator)
 
 if __name__ == "__main__":
