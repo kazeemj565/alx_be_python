@@ -15,7 +15,8 @@ class Book:
         pass
 
 class Library:
-    def __init_subclass__(cls):
+    def __init__(self):
+        
         pass
 
     def add_book():
