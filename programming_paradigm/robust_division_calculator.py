@@ -1,26 +1,27 @@
 def safe_divide(numerator, denominator):
-    # numerator = int(numerator)
-    # denominator = (denominator)
+    # try:
+    #     result = [float(numerator) / float(denominator)]
+    #     print("The result of the division is", result)
+        
+    # except (ZeroDivisionError, ValueError) as error:
+    #     match error:
+    #         case ZeroDivisionError():
+    #             print("Error: Cannot divide by zero.")
+
+    #         case ValueError():
+    #             print("Error: Please enter numeric values only.")
 
 
     try:
-        result = [float(numerator) / float(denominator)]
+        result = float(numerator) / float(denominator)
         print("The result of the division is", result)
-    except (ZeroDivisionError, ValueError) as error:
-        match error:
-            case ZeroDivisionError():
-                print("Error: Cannot divide by zero.")
-            case ValueError():
-                print("Error: Please enter numeric values only.")   
-
-    # else:
-    #     try:
-    #         [float(numerator) / float(denominator)]
-
-    #     except ValueError:
-    #         print("Error: Please enter numeric values only.")   
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero.")
+    except ValueError:
+        print("Error: Please enter numeric values only.")
 
 
-    
-    # else:
-    #     print("Invalid Operation")
+
+# safe_divide(4, 3)
+# safe_divide(4, 0)
+# safe_divide(4, 'jan')
