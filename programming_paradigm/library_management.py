@@ -4,7 +4,14 @@ class Book:
         self.author = author
         self._is_checked_out = is_checked_out
 
+    
+    def return_book(self):
+        # self._is_checked_out.append(title)
+        self._book += 1
+        # return True
 
+
+        
 class Library:
     def __init__(self):
         self._book = book
@@ -23,8 +30,8 @@ class Library:
         self._book -= 1
         pass
     
-    def return_book(self, title):
-        self._is_checked_out.append(title)
+    def return_book(self):
+        # self._is_checked_out.append(title)
         self._book += 1
         # return True
         pass
