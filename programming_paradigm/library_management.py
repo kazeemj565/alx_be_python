@@ -7,9 +7,7 @@ class Book:
 
 class Library:
     def __init__(self, book):
-        # super().__init__(title, author, is_checked_out)
         self._book = book
-        # self._is_checked_out = is_checked_out
         pass
 
     def add_book(self, book):
@@ -33,7 +31,6 @@ class Library:
 
 
     def list_available_books(self):
-        super().list_available_books()
         print(f"weldone: {self.title}")
 
 
