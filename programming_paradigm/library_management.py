@@ -10,7 +10,7 @@ class Library:
         self._book = book
         pass
 
-    def add_book(self, book):
+    def add_book(self):
         self._book.append(book)
 
 
