@@ -6,7 +6,7 @@ class Book:
 
 
 class Library:
-    def __init__(self, book):
+    def __init__(self):
         self._book = book
         pass
 
