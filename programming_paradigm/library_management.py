@@ -1,5 +1,4 @@
 class Book:
-
     def __init__(self, title, author, is_checked_out):
         self.title = title
         self.author = author
@@ -7,7 +6,7 @@ class Book:
 
 
 class Library:
-    def __init__(self, is_checked_out, author, title, book):
+    def __init__(self, is_checked_out, book):
         # super().__init__(title, author, is_checked_out)
         self._book = book
         self._is_checked_out = is_checked_out
