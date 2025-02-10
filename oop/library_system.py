@@ -23,7 +23,7 @@ class Library:
         self.book = book
     
     def add_book(self, book):
-        self.book = []
+        self.books = []
 
     def list_books(self):
         print(self)
