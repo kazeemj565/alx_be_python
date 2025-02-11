@@ -19,10 +19,11 @@ class PrintBook(Book):
 
 
 class Library:
-    def __init__(self, book):
-        self.book = book
+    # def __init__(self, book):
+    #     self.book = book
     
     def add_book(self, book):
+        self.book = book
         self.books = []
         self.append(self.book)
 
