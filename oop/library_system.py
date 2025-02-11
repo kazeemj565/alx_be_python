@@ -7,7 +7,7 @@ class Book:
          pass
     
     def details(self):
-        return f"Title: {self.title}, Author: {self.author}"
+        return f"Book: {self.title}, by {self.author}"
 
 class EBook(Book):
     def __init__(self, title, author, file_size):
