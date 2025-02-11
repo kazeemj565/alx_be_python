@@ -19,8 +19,9 @@ class PrintBook(Book):
 
 
 class Library:
-    # def __init__(self, book):
-    #     self.book = book
+    # def __init__(self):
+    #      pass
+    #     # self.book = book
     
     def add_book(self, book):
         self.book = book
@@ -28,7 +29,7 @@ class Library:
         self.books.append(book)
 
     def list_books(self):
-        print(self)
+        print(self.add_book(self.books))
 
           
 # class Car:
